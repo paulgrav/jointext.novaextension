@@ -1,0 +1,21 @@
+{
+    "identifier": "net.hespera.JoinText",
+    "name": "Join Text",
+    "organization": "Paul Grave",
+    "description": "Similar behaviour to VIM’s SHIFT-J",
+    "version": "1.0",
+    "categories": ["commands"],
+    
+    "main": "main.js",
+    
+    "commands": {
+        "editor": [
+            {
+                "title": "Join Line With Next",
+                "command": "joinText",
+                "shortcut": "ctrl-shift-j"
+            }
+        ]
+        
+    }
+}
